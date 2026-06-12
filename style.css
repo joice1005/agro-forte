@@ -1,0 +1,95 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8f2;
+    color: #2e2e2e;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #3a8e41;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+/* Main */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #3a8e41;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3a8e41;
+    padding-bottom: 5px;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #3a8e41;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Boxes de dicas */
+.tip {
+    background-color: #dff0d8;
+    border-left: 5px solid #3a8e41;
+    padding: 12px 15px;
+    margin: 10px 0 20px 0;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #cce5cc;
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+}
